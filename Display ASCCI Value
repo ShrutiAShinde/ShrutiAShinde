@@ -1,0 +1,15 @@
+//DASCCI.c
+#include<stdio.h>
+
+char main()
+{
+        char cAlpha = '\0';
+
+        printf("Enter Any Character :\t");
+        scanf("%c" , &cAlpha); 
+
+        printf("ASCCI VALUE OF %c is %d" , cAlpha , cAlpha);
+
+
+        return 0;
+}
